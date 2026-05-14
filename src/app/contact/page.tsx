@@ -118,13 +118,7 @@ export default function ContactPage() {
                 <button type="submit" className={`inline-flex h-11 flex-1 items-center justify-center sm:w-auto ${tone.action}`}>
                   Send message
                 </button>
-                <a 
-                  href={`mailto:${process.env.NEXT_PUBLIC_CONTACT_EMAIL}`}
-                  className={`inline-flex h-11 items-center justify-center rounded-md border border-slate-200 bg-white px-6 font-semibold text-[#0047AB] shadow-sm hover:bg-slate-50`}
-                >
-                  <Mail className="mr-2 h-4 w-4" />
-                  Email us
-                </a>
+                
               </div>
             </form>
           </div>
